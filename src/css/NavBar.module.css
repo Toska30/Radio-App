@@ -1,0 +1,37 @@
+.dark {
+  color: rgb(203, 203, 203) !important;
+  background-color: rgb(39, 39, 39) !important;
+}
+
+.Dropcolor, .a, .dropdown-menu {
+  background-color: rgb(52, 52, 52) !important;
+  color: white !important;
+}
+
+.title, .h2 {
+  color: white !important;
+}
+
+.logo {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+
+}
+
+.logo:hover {
+  color: lightgray;
+  text-decoration: none;
+}
+.link {
+  color: #ffffff;
+  font-size: 1rem;
+  padding-top: 0.5rem;
+  margin-right: 2rem;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: lightgray;
+  text-decoration: none;
+}

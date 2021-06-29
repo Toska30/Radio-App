@@ -1,0 +1,31 @@
+/*Login.js and Register.js style*/
+.card {
+  margin-top: 1rem;
+  
+}
+
+.Darkcard{
+  background-color: rgb(29, 29, 29) !important;
+  color: white;
+
+}
+ 
+.errorBox {
+  display: none;
+}
+
+.errorBox.active {
+  display: block;
+  color: red;
+}
+
+.errorBox.inactive {
+  display: none;
+}
+
+.singInButton {
+  margin-top: 2rem;
+  width: 60%;
+  border: none;
+  background-color: #343434 !important;
+}

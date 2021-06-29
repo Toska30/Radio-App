@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background-color: rgb(18, 18, 18) !important;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
+  font-family: "Roboto", sans-serif;
+}
+
+.title,
+h2 {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  color: rgb(107, 106, 106);
+}
+
+.back-button {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

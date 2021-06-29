@@ -1,0 +1,119 @@
+li {
+  margin-right: 0.5rem;
+
+}
+.card {
+  background: rgb(29, 29, 29) !important;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  height: 20vh;
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.Head, .Text {
+  color: rgb(203, 203, 203);
+  }
+
+.menuList {
+  background-color: rgb(52, 52, 52);
+  color: rgb(203, 203, 203);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.channelImage {
+  width: 50px;
+}
+.inactive {
+  color: gray;
+  padding-left: 0.5rem;
+  margin-right: 1rem;
+}
+.active {
+  color: rgb(82, 77, 77);
+  font-weight: 700;
+  padding-left: 0.5rem;
+  margin-right: 1rem;
+}
+.active:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: black;
+  cursor: pointer;
+}
+.inactive:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: black;
+}
+
+.heart .heartIcon {
+  color: gray;
+}
+
+.heart .heartIcon:hover {
+  color: red;
+}
+
+.favoriteMenuList {
+  background-color: rgba(211, 211, 211, 0.52);
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+.favoriteListItem .active {
+  color: rgb(82, 77, 77);
+  font-size: 1.5rem;
+  padding-left: 0.5rem;
+  margin-right: 1rem;
+}
+.favoriteListItem .inactive {
+  color: gray;
+  font-size: 1.5rem;
+  padding-left: 0.5rem;
+  margin-right: 1rem;
+}
+
+.favoriteListItem:hover {
+  text-decoration: underline;
+  color: black;
+}
+.cardTag {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 576px) {
+  .inactive {
+    font-size: 1.5rem;
+    margin-right: 2rem;
+  }
+  .active {
+    font-size: 1.5rem;
+    margin-right: 2rem;
+  }
+  .channelImage {
+    width: 100px;
+  }
+  .programName {
+    font-size: 1.5rem;
+    margin-right: 2rem;
+  }
+  .card {
+    height:25vh;
+  }
+}
+
+/* ProgByChannelId */
+.programs {
+  margin-top: 2rem;
+}

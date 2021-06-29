@@ -1,0 +1,19 @@
+.ProgramDetails {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 80%;
+  background-color: rgb(29, 29, 29);
+}
+
+.Head, .Text {
+  color: rgb(203, 203, 203);
+  }
+
+.info {
+  color: rgb(203, 203, 203);
+  font-weight: 700;
+}
