@@ -6,7 +6,7 @@
 }
 .card {
   width: 80%;
-  background-color: rgb(29, 29, 29);
+  background-color: rgb(29, 29, 29) !important;
 }
 
 .Head, .Text {
