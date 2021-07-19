@@ -5,7 +5,7 @@ import { UserContext } from "../contexts/UserContext";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import styles from "../css/NavBar.module.css";
-import {} from "../css/custom.scss"; //important!
+
 
 
 const NavBar = () => {
